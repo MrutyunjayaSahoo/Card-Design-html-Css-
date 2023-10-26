@@ -1,0 +1,93 @@
+body {
+    margin-top: 2rem;
+    background-color: rgb(37, 35, 35);
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(187, 219, 245);
+    height: 28rem;
+    width: 18rem;
+    padding: 1.3rem;
+    transform:perspective(70em) rotateX(8deg);
+    box-shadow:
+        rgba(240, 242, 244, 0.553) 0px 60px 123px -25px,
+        rgba(228, 236, 243, 0.08) 0px 35px 75px -35px;
+    border-radius: 15px;
+    border: 1px solid;
+    transition: all ease 0.5s;
+    
+
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px #fff, 0 0 20px #0990f7;
+    transform:perspective(80em)  rotateX(5deg) scale(1.1);
+    transition: all ease 0.7s;
+    transform-origin: center top;
+}
+
+.design {
+    border: 1.3px solid rgb(255, 227, 178);
+    border-radius: 10px;
+    background-color: rgb(235, 252, 241);
+    padding: 10px;
+    box-shadow: 6px 6px 3px rgb(58, 109, 89);
+    
+}
+
+img {
+    height: 13rem;
+    width: 16.9rem;
+    border-radius: 9px;
+    border-style: ridge;
+    transition: all ease 0.5s;
+
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+button {
+    margin-top: 0.2px;
+    border-radius: 9px;
+    border: 1px solid;
+    background-color: rgb(207, 250, 187);
+    color: rgb(4, 144, 111);
+    cursor: pointer;
+    width: 4.9rem;
+    height: 32px;
+    font-weight: 550;
+    transition: all ease 0.5s;
+}
+
+button:last-child {
+    position: absolute;
+    margin-left: 5.8rem;
+    top: 89%;
+    background-color: rgba(133, 206, 248, 0.985);
+    color: rgb(38, 32, 212);
+    cursor: pointer;
+    border: 1.5px solid rgb(74, 68, 247);
+    width: 5.3rem;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(19, 236, 185);
+}
+
+h2 {
+    text-shadow: 1px 1.9px cyan;
+}
+
+p {
+    text-align: justify;
+}
+
